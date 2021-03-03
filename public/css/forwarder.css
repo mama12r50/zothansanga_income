@@ -1,0 +1,831 @@
+.mediaViewInfo {
+	--web-view-name: homepage;
+	--web-view-id: homepage;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: homepage;
+}
+
+#homepage {
+	position: absolute;
+	width: 1920px;
+	height: 1580px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: homepage;
+	--web-view-id: homepage;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#menu_bar {
+	fill: rgba(66,184,203,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.menu_bar {
+	overflow: visible;
+	position: absolute;
+	width: 1920px;
+	height: 47px;
+	left: 0px;
+	top: 6px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#menu_box {
+	fill: rgba(233,62,101,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.menu_box {
+	position: absolute;
+	overflow: visible;
+	width: 540px;
+	height: 47px;
+	left: 107px;
+	top: 6px;
+}
+#Welcome_to_income_certificate_ {
+	left: 152px;
+	top: 17px;
+	position: absolute;
+	overflow: visible;
+	width: 451px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+	text-transform: uppercase;
+}
+#nav_bar {
+	fill: rgba(233,62,101,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.nav_bar {
+	overflow: visible;
+	position: absolute;
+	width: 1923px;
+	height: 36.578px;
+	left: -3px;
+	top: 193px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#For_the_year_2021 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+	left: 1642px;
+	top: 15.5px;
+	position: absolute;
+	overflow: visible;
+	width: 209px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#ashoka_pillar {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0));
+	position: absolute;
+	width: 63.175px;
+	height: 107px;
+	left: 58.014px;
+	top: 72px;
+	overflow: visible;
+}
+#INCOME_CERTIFICATE_PORTAL {
+	filter: drop-shadow(0px 3px 6px rgba(66, 68, 67, 0.678));
+	left: 152px;
+	top: 72px;
+	position: absolute;
+	overflow: visible;
+	width: 415px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	color: rgba(207,33,33,1);
+}
+#Government_of_Mizoram {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.588));
+	left: 152px;
+	top: 151px;
+	position: absolute;
+	overflow: visible;
+	width: 195px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(0,0,0,1);
+}
+#Mizoram_e-Governance_Society {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.569));
+	left: 152px;
+	top: 114px;
+	position: absolute;
+	overflow: visible;
+	width: 313px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#digital_india {
+	position: absolute;
+	width: 166.5px;
+	height: 86.5px;
+	left: 1683.5px;
+	top: 78px;
+	overflow: visible;
+}
+#Home {
+	left: 348px;
+	top: 199px;
+	position: absolute;
+	overflow: visible;
+	width: 59px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#About_Us {
+	left: 506px;
+	top: 199px;
+	position: absolute;
+	overflow: visible;
+	width: 91px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: about.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#Services {
+	left: 696px;
+	top: 199px;
+	position: absolute;
+	overflow: visible;
+	width: 85px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#CSC_Login {
+	left: 880px;
+	top: 199px;
+	position: absolute;
+	overflow: visible;
+	width: 103px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#Officers_Login {
+	left: 1082px;
+	top: 199px;
+	position: absolute;
+	overflow: visible;
+	width: 143px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#Login {
+	left: 1430px;
+	top: 152px;
+	position: absolute;
+	overflow: visible;
+	width: 51px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(0,0,0,1);
+}
+#Apply {
+	left: 1279px;
+	top: 152px;
+	position: absolute;
+	overflow: visible;
+	width: 53px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(0,0,0,1);
+}
+#apply_icon {
+	position: absolute;
+	width: 47px;
+	height: 47px;
+	left: 1282px;
+	top: 83px;
+	overflow: visible;
+}
+#login_icon {
+	position: absolute;
+	width: 52px;
+	height: 52px;
+	left: 1429px;
+	top: 78px;
+	overflow: visible;
+}
+#_Income_Certificate__This_Serv {
+	left: 58px;
+	top: 629px;
+	position: absolute;
+	overflow: hidden;
+	width: 1135px;
+	height: 682px;
+	text-align: left;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 27px;
+	color: rgba(0,0,0,1);
+}
+#footer {
+	position: absolute;
+	top: 616px;
+    margin-bottom: 0px;
+	fill: rgba(23,68,75,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.footer {
+    margin-bottom: 0px;
+	position: absolute;
+	margin-top: 300px;
+	overflow: visible;
+	width: 1920px;
+	height: 194px;
+	left: 0px;
+	top: 1700px;
+}
+#icons8-print-100 {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 1723px;
+	top: 629px;
+	overflow: visible;
+}
+#box1 {
+	position: absolute;
+	width: 370px;
+	height: 255px;
+	left: 1480px;
+	top: 693px;
+	overflow: visible;
+}
+#Candidates_can_contact_the_Hel {
+	left: 11px;
+	top: 67px;
+	position: absolute;
+	overflow: visible;
+	width: 351px;
+	height: 38px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+}
+#call_icon {
+	position: absolute;
+	width: 21px;
+	height: 21px;
+	left: 11px;
+	top: 130px;
+	overflow: visible;
+}
+#contact_no {
+	left: 92px;
+	top: 131px;
+	position: absolute;
+	overflow: visible;
+	width: 236px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+}
+#mail_icon {
+	position: absolute;
+	width: 21px;
+	height: 22px;
+	left: 11px;
+	top: 176px;
+	overflow: visible;
+}
+#mama12r50gmailcom {
+	left: 92px;
+	top: 178px;
+	position: absolute;
+	overflow: visible;
+	width: 162px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+}
+#thenightvision12r50gmailcom {
+	left: 92px;
+	top: 207px;
+	position: absolute;
+	overflow: visible;
+	width: 216px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+}
+#Rectangle_6 {
+	fill: rgba(0,221,255,0.149);
+}
+.Rectangle_6 {
+	position: absolute;
+	overflow: visible;
+	width: 370px;
+	height: 239px;
+	left: 0px;
+	top: 16px;
+}
+#Rectangle_7 {
+	fill: rgba(66,184,203,1);
+}
+.Rectangle_7 {
+	position: absolute;
+	overflow: visible;
+	width: 370px;
+	height: 52px;
+	left: 0px;
+	top: 0px;
+}
+#HELP_DESK {
+	left: 162px;
+	top: 10px;
+	position: absolute;
+	overflow: visible;
+	width: 129px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe Script;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#helpdesk_icon {
+	position: absolute;
+	width: 29px;
+	height: 29px;
+	left: 80px;
+	top: 12px;
+	overflow: visible;
+}
+#box2 {
+	position: absolute;
+	width: 370px;
+	height: 369px;
+	left: 1480px;
+	top: 976px;
+	overflow: visible;
+}
+#You_can_access_the_usefull_gov {
+	left: 11px;
+	top: 67px;
+	position: absolute;
+	overflow: visible;
+	width: 351px;
+	height: 38px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+}
+#link_icon2 {
+	position: absolute;
+	width: 21px;
+	height: 21px;
+	left: 11px;
+	top: 130px;
+	overflow: visible;
+}
+#msegs {
+	left: 92px;
+	top: 130px;
+	position: absolute;
+	overflow: visible;
+	width: 148px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+}
+#link_icon2_bp {
+	position: absolute;
+	width: 21px;
+	height: 21px;
+	left: 11px;
+	top: 176px;
+	overflow: visible;
+}
+#incometaxindiaefillinggovin {
+	left: 92px;
+	top: 176px;
+	position: absolute;
+	overflow: visible;
+	width: 192px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+}
+#link_icon3 {
+	position: absolute;
+	width: 21px;
+	height: 21px;
+	left: 11px;
+	top: 222px;
+	overflow: visible;
+}
+#udaigovin {
+	left: 92px;
+	top: 222px;
+	position: absolute;
+	overflow: visible;
+	width: 74px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+}
+#link_icon3_bt {
+	position: absolute;
+	width: 21px;
+	height: 21px;
+	left: 11px;
+	top: 268px;
+	overflow: visible;
+}
+#edistrictmizoramgovin {
+	left: 92px;
+	top: 268px;
+	position: absolute;
+	overflow: visible;
+	width: 160px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+}
+#link_icon3_bv {
+	position: absolute;
+	width: 21px;
+	height: 21px;
+	left: 11px;
+	top: 314px;
+	overflow: visible;
+}
+#dictmizoramgovin {
+	left: 92px;
+	top: 314px;
+	position: absolute;
+	overflow: visible;
+	width: 132px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+}
+#Rectangle_6_bx {
+	fill: rgba(0,221,255,0.149);
+}
+.Rectangle_6_bx {
+	position: absolute;
+	overflow: visible;
+	width: 370px;
+	height: 350px;
+	left: 0px;
+	top: 19px;
+}
+#path_1 {
+	fill: rgba(66,184,203,1);
+}
+.path_1 {
+	overflow: visible;
+	position: absolute;
+	width: 370px;
+	height: 52px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#linkheader_icon {
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	left: 80px;
+	top: 14px;
+	overflow: visible;
+}
+#USEFUL_LINKS {
+	left: 134px;
+	top: 10px;
+	position: absolute;
+	overflow: visible;
+	width: 157px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe Script;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+
+#_2021__Zothansanga_Renthlei {
+	left: 815px;
+	top: 1420px;
+	bottom: 0;
+	position: absolute;
+	overflow: visible;
+	width: 291px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#This_website_belongs_to_Depart {
+	left: 396px;
+	top: 1467px;
+	bottom: 0;
+	position: absolute;
+	overflow: visible;
+	width: 1129px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#Crafted_with_care_by_Mizoram_S {
+	left: 645px;
+	top: 1516px;
+	bottom: 0;
+	position: absolute;
+	overflow: visible;
+	width: 631px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#Print_this_page {
+	left: 1560px;
+	top: 630px;
+	position: absolute;
+	overflow: visible;
+	width: 144px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Contact_Us__g {
+	left: 1324px;
+	top: 199px;
+	position: absolute;
+	overflow: visible;
+	width: 111px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: contact.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#home_image1 {
+	position: absolute;
+	width: 1920px;
+	height: 372px;
+	left: 0px;
+	top: 230px;
+	overflow: visible;
+}
+#icons8-next-page-96 {
+	position: absolute;
+	width: 96px;
+	height: 96px;
+	left: 1724px;
+	top: 368px;
+	overflow: visible;
+	transition: all 0.2s ease-in;
+	--web-animation: fadein 0.2s ease-in;
+	--web-action-type: page;
+	--web-action-target: homepage1.html;
+	cursor: pointer;
+}
+#icons8-next-page-96_b {
+	position: absolute;
+	width: 96px;
+	height: 96px;
+	left: 100px;
+	top: 368px;
+	overflow: visible;
+	transition: all 0.2s ease-in;
+	--web-animation: fadein 0.2s ease-in;
+	--web-action-type: page;
+	--web-action-target: homepage2.html;
+	cursor: pointer;
+}
+  #important {
+
+	  font-weight: bold;
+	  font-size: 16pt;
+  	  font-family: Verdana;
+      margin-top: 270px;
+	  margin-left: 800px;
+	  height: 20px;
+	}
+  #mandatory {
+    font-weight: regular;
+    font-size: 12pt;
+    font-family: sans-serif   ;
+	line-height: 1cm;
+    margin-top: 300px auto;
+    margin-left: 810px;
+    color: red;
+
+}
+#form1{
+	position: absolute;
+	overflow: visible;
+	text-align: justify;
+	align-content: space-around;
+	margin-top: 1cm;
+	padding: auto;
+	font-size: 16pt;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	line-height: 50px;
+}
+  .previous {
+	position: absolute;
+	margin-left: 15cm;
+	margin-top: 1cm;
+	padding: 10mm;
+	overflow: visible;
+    background-color: #c53f3f;
+	border-radius: 20px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .next {
+	position: absolute;
+	font-size: 15pt;
+	margin-left: 32cm;
+	padding:10mm;
+	margin-top: 8mm;
+
+	overflow: visible;
+	white-space: nowrap;
+    
+ 
+    background-color: #4CAF50;
+	border-radius: 20px;
+    color: white;
+  }
+  #table {
+	  position: relative;
+	  margin-top: 40ch;
+  }
+  #details{
+	  margin-left: 750px;
+	  position: absolute;
+	  margin-top: -2ch;
+	  font-size: 30pt;
+	  font-family: Verdana, Geneva, Tahoma, sans-serif;
+	  font-weight: 200;
+	  font-weight: 700;
+  }
+  #table{
+    width:100%;
+    font-family:arial, sans-serif;
+
+
+}
+#list{
+    position: absolute;
+    margin-left: 650px;
+    margin-top: -5ch;
+}

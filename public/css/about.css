@@ -1,0 +1,745 @@
+.mediaViewInfo {
+	--web-view-name: about;
+	--web-view-id: about;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: about;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#about {
+	position: absolute;
+	width: 1920px;
+	height: 1580px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: about;
+	--web-view-id: about;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#menu_bar_fl {
+	fill: rgba(66,184,203,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.menu_bar_fl {
+	overflow: visible;
+	position: absolute;
+	width: 1920px;
+	height: 47px;
+	left: 0px;
+	top: 6px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#menu_box_fm {
+	fill: rgba(233,62,101,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.menu_box_fm {
+	position: absolute;
+	overflow: visible;
+	width: 540px;
+	height: 47px;
+	left: 107px;
+	top: 6px;
+}
+#Welcome_to_income_certificate__fn {
+	left: 152px;
+	top: 17px;
+	position: absolute;
+	overflow: visible;
+	width: 451px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+	text-transform: uppercase;
+}
+#nav_bar_fo {
+	fill: rgba(233,62,101,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.nav_bar_fo {
+	overflow: visible;
+	position: absolute;
+	width: 1923px;
+	height: 36.578px;
+	left: -3px;
+	top: 193px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#For_the_year_2021_fp {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+	left: 1642px;
+	top: 15.5px;
+	position: absolute;
+	overflow: visible;
+	width: 209px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#ashoka_pillar_fq {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0));
+	position: absolute;
+	width: 63.175px;
+	height: 107px;
+	left: 58.014px;
+	top: 72px;
+	overflow: visible;
+}
+#INCOME_CERTIFICATE_PORTAL_fr {
+	filter: drop-shadow(0px 3px 6px rgba(66, 68, 67, 0.678));
+	left: 152px;
+	top: 72px;
+	position: absolute;
+	overflow: visible;
+	width: 415px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	color: rgba(207,33,33,1);
+}
+#Government_of_Mizoram_fs {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.588));
+	left: 152px;
+	top: 151px;
+	position: absolute;
+	overflow: visible;
+	width: 195px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(0,0,0,1);
+}
+#Mizoram_e-Governance_Society_ft {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.569));
+	left: 152px;
+	top: 114px;
+	position: absolute;
+	overflow: visible;
+	width: 313px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#digital_india_fu {
+	position: absolute;
+	width: 166.5px;
+	height: 86.5px;
+	left: 1683.5px;
+	top: 78px;
+	overflow: visible;
+}
+#Home_fv {
+	left: 348px;
+	top: 199px;
+	position: absolute;
+	overflow: visible;
+	width: 59px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: homepage.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#About_Us_fw {
+	left: 506px;
+	top: 199px;
+	position: absolute;
+	overflow: visible;
+	width: 91px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#Services_fx {
+	left: 696px;
+	top: 199px;
+	position: absolute;
+	overflow: visible;
+	width: 85px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#CSC_Login_fy {
+	left: 880px;
+	top: 199px;
+	position: absolute;
+	overflow: visible;
+	width: 103px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#Officers_Login_fz {
+	left: 1082px;
+	top: 199px;
+	position: absolute;
+	overflow: visible;
+	width: 143px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#Login_f {
+	left: 1430px;
+	top: 152px;
+	position: absolute;
+	overflow: visible;
+	width: 51px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(0,0,0,1);
+}
+#Apply_f {
+	left: 1279px;
+	top: 152px;
+	position: absolute;
+	overflow: visible;
+	width: 53px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(0,0,0,1);
+}
+#apply_icon_f {
+	position: absolute;
+	width: 47px;
+	height: 47px;
+	left: 1282px;
+	top: 83px;
+	overflow: visible;
+}
+#login_icon_f {
+	position: absolute;
+	width: 52px;
+	height: 52px;
+	left: 1429px;
+	top: 78px;
+	overflow: visible;
+}
+#This_Service_will_be_used_by_A {
+	left: 58px;
+	top: 693px;
+	position: absolute;
+	overflow: visible;
+	width: 1135px;
+	height: 682px;
+	text-align: left;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 27px;
+	color: rgba(0,0,0,1);
+}
+#footer_f {
+	fill: rgba(23,68,75,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.footer_f {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 194px;
+	left: 0px;
+	top: 1386px;
+}
+#icons8-print-100_f {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 1723px;
+	top: 629px;
+	overflow: visible;
+}
+#box1_f {
+	position: absolute;
+	width: 370px;
+	height: 255px;
+	left: 1480px;
+	top: 693px;
+	overflow: visible;
+}
+#Candidates_can_contact_the_Hel_f {
+	left: 11px;
+	top: 67px;
+	position: absolute;
+	overflow: visible;
+	width: 351px;
+	height: 38px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+}
+#call_icon_f {
+	position: absolute;
+	width: 21px;
+	height: 21px;
+	left: 11px;
+	top: 130px;
+	overflow: visible;
+}
+#contact_no_ga {
+	left: 92px;
+	top: 131px;
+	position: absolute;
+	overflow: visible;
+	width: 236px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+}
+#mail_icon_gb {
+	position: absolute;
+	width: 21px;
+	height: 22px;
+	left: 11px;
+	top: 176px;
+	overflow: visible;
+}
+#mama12r50gmailcom_gc {
+	left: 92px;
+	top: 178px;
+	position: absolute;
+	overflow: visible;
+	width: 162px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+}
+#thenightvision12r50gmailcom_gd {
+	left: 92px;
+	top: 207px;
+	position: absolute;
+	overflow: visible;
+	width: 216px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+}
+#Rectangle_6_ge {
+	fill: rgba(0,221,255,0.149);
+}
+.Rectangle_6_ge {
+	position: absolute;
+	overflow: visible;
+	width: 370px;
+	height: 239px;
+	left: 0px;
+	top: 16px;
+}
+#Rectangle_7_gf {
+	fill: rgba(66,184,203,1);
+}
+.Rectangle_7_gf {
+	position: absolute;
+	overflow: visible;
+	width: 370px;
+	height: 52px;
+	left: 0px;
+	top: 0px;
+}
+#HELP_DESK_gg {
+	left: 162px;
+	top: 10px;
+	position: absolute;
+	overflow: visible;
+	width: 129px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe Script;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#helpdesk_icon_gh {
+	position: absolute;
+	width: 29px;
+	height: 29px;
+	left: 80px;
+	top: 12px;
+	overflow: visible;
+}
+#box2_gi {
+	position: absolute;
+	width: 370px;
+	height: 369px;
+	left: 1480px;
+	top: 976px;
+	overflow: visible;
+}
+#You_can_access_the_usefull_gov_gj {
+	left: 11px;
+	top: 67px;
+	position: absolute;
+	overflow: visible;
+	width: 351px;
+	height: 38px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+}
+#link_icon2_gk {
+	position: absolute;
+	width: 21px;
+	height: 21px;
+	left: 11px;
+	top: 130px;
+	overflow: visible;
+}
+#msegs_gl {
+	left: 92px;
+	top: 130px;
+	position: absolute;
+	overflow: visible;
+	width: 148px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+}
+#link_icon2_gm {
+	position: absolute;
+	width: 21px;
+	height: 21px;
+	left: 11px;
+	top: 176px;
+	overflow: visible;
+}
+#incometaxindiaefillinggovin_gn {
+	left: 92px;
+	top: 176px;
+	position: absolute;
+	overflow: visible;
+	width: 192px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+}
+#link_icon3_go {
+	position: absolute;
+	width: 21px;
+	height: 21px;
+	left: 11px;
+	top: 222px;
+	overflow: visible;
+}
+#udaigovin_gp {
+	left: 92px;
+	top: 222px;
+	position: absolute;
+	overflow: visible;
+	width: 74px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+}
+#link_icon3_gq {
+	position: absolute;
+	width: 21px;
+	height: 21px;
+	left: 11px;
+	top: 268px;
+	overflow: visible;
+}
+#edistrictmizoramgovin_gr {
+	left: 92px;
+	top: 268px;
+	position: absolute;
+	overflow: visible;
+	width: 160px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+}
+#link_icon3_gs {
+	position: absolute;
+	width: 21px;
+	height: 21px;
+	left: 11px;
+	top: 314px;
+	overflow: visible;
+}
+#dictmizoramgovin_gt {
+	left: 92px;
+	top: 314px;
+	position: absolute;
+	overflow: visible;
+	width: 132px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+}
+#Rectangle_6_gu {
+	fill: rgba(0,221,255,0.149);
+}
+.Rectangle_6_gu {
+	position: absolute;
+	overflow: visible;
+	width: 370px;
+	height: 350px;
+	left: 0px;
+	top: 19px;
+}
+#path_1_gv {
+	fill: rgba(66,184,203,1);
+}
+.path_1_gv {
+	overflow: visible;
+	position: absolute;
+	width: 370px;
+	height: 52px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#linkheader_icon_gw {
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	left: 80px;
+	top: 14px;
+	overflow: visible;
+}
+#USEFUL_LINKS_gx {
+	left: 134px;
+	top: 10px;
+	position: absolute;
+	overflow: visible;
+	width: 157px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe Script;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#_2021__Zothansanga_Renthlei_gy {
+	left: 815px;
+	top: 1420px;
+	position: absolute;
+	overflow: visible;
+	width: 291px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#This_website_belongs_to_Depart_gz {
+	left: 396px;
+	top: 1467px;
+	position: absolute;
+	overflow: visible;
+	width: 1129px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#Crafted_with_care_by_Mizoram_S_g {
+	left: 645px;
+	top: 1516px;
+	position: absolute;
+	overflow: visible;
+	width: 631px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#Print_this_page_g {
+	left: 1560px;
+	top: 630px;
+	position: absolute;
+	overflow: visible;
+	width: 144px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Contact_Us__g {
+	left: 1324px;
+	top: 199px;
+	position: absolute;
+	overflow: visible;
+	width: 111px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: contact.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#home_image1_g {
+	position: absolute;
+	width: 1920px;
+	height: 372px;
+	left: 0px;
+	top: 230px;
+	overflow: visible;
+}
+#icons8-next-page-96_g {
+	position: absolute;
+	width: 96px;
+	height: 96px;
+	left: 1724px;
+	top: 368px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: about1.html;
+	cursor: pointer;
+}
+#icons8-next-page-96_ha {
+	position: absolute;
+	width: 96px;
+	height: 96px;
+	left: 100px;
+	top: 368px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: about2.html;
+	cursor: pointer;
+}

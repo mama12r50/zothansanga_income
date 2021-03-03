@@ -1,0 +1,7 @@
+#certificate{
+    position: absolute;
+    border: 2px solid black;
+    margin-left: 300px;
+    padding: 5mm;
+    margin-top: 2ch;
+}

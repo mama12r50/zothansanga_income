@@ -1,0 +1,22 @@
+#ack
+{
+    margin-top: 10ch;
+    position: absolute;
+    margin-left: 270px;
+    border: 2px solid  black;
+    padding: 10mm;
+    word-spacing: 10pt;
+    line-height: 1pt;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#a{
+    position: relative;
+    margin-left: 410px;
+    margin-bottom: 3cm;
+
+}
+#last{
+    margin-bottom: 3ch;
+}

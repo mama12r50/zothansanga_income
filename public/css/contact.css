@@ -1,0 +1,510 @@
+.mediaViewInfo {
+	--web-view-name: contact;
+	--web-view-id: contact;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: contact;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#contact {
+	position: absolute;
+	width: 1920px;
+	height: 1580px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: contact;
+	--web-view-id: contact;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#menu_bar_g {
+	fill: rgba(66,184,203,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.menu_bar_g {
+	overflow: visible;
+	position: absolute;
+	width: 1920px;
+	height: 47px;
+	left: 0px;
+	top: 6px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#menu_box_g {
+	fill: rgba(233,62,101,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.menu_box_g {
+	position: absolute;
+	overflow: visible;
+	width: 540px;
+	height: 47px;
+	left: 107px;
+	top: 6px;
+}
+#Welcome_to_income_certificate__ha {
+	left: 152px;
+	top: 17px;
+	position: absolute;
+	overflow: visible;
+	width: 451px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+	text-transform: uppercase;
+}
+#nav_bar_hb {
+	fill: rgba(233,62,101,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.nav_bar_hb {
+	overflow: visible;
+	position: absolute;
+	width: 1923px;
+	height: 36.578px;
+	left: -3px;
+	top: 193px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#For_the_year_2021_hc {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+	left: 1642px;
+	top: 15.5px;
+	position: absolute;
+	overflow: visible;
+	width: 209px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#ashoka_pillar_hd {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0));
+	position: absolute;
+	width: 63.175px;
+	height: 107px;
+	left: 58.014px;
+	top: 72px;
+	overflow: visible;
+}
+#INCOME_CERTIFICATE_PORTAL_he {
+	filter: drop-shadow(0px 3px 6px rgba(66, 68, 67, 0.678));
+	left: 152px;
+	top: 72px;
+	position: absolute;
+	overflow: visible;
+	width: 415px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	color: rgba(207,33,33,1);
+}
+#Government_of_Mizoram_hf {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.588));
+	left: 152px;
+	top: 151px;
+	position: absolute;
+	overflow: visible;
+	width: 195px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(0,0,0,1);
+}
+#Mizoram_e-Governance_Society_hg {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.569));
+	left: 152px;
+	top: 114px;
+	position: absolute;
+	overflow: visible;
+	width: 313px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#digital_india_hh {
+	position: absolute;
+	width: 166.5px;
+	height: 86.5px;
+	left: 1683.5px;
+	top: 78px;
+	overflow: visible;
+}
+#Home_hi {
+	left: 348px;
+	top: 199px;
+	position: absolute;
+	overflow: visible;
+	width: 59px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: homepage.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#About_Us_hj {
+	left: 506px;
+	top: 199px;
+	position: absolute;
+	overflow: visible;
+	width: 91px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: about.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#Services_hk {
+	left: 696px;
+	top: 199px;
+	position: absolute;
+	overflow: visible;
+	width: 85px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#CSC_Login_hl {
+	left: 880px;
+	top: 199px;
+	position: absolute;
+	overflow: visible;
+	width: 103px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#Officers_Login_hm {
+	left: 1082px;
+	top: 199px;
+	position: absolute;
+	overflow: visible;
+	width: 143px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#Login_hn {
+	left: 1430px;
+	top: 152px;
+	position: absolute;
+	overflow: visible;
+	width: 51px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(0,0,0,1);
+}
+#Apply_ho {
+	left: 1279px;
+	top: 152px;
+	position: absolute;
+	overflow: visible;
+	width: 53px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(0,0,0,1);
+}
+#apply_icon_hp {
+	position: absolute;
+	width: 47px;
+	height: 47px;
+	left: 1282px;
+	top: 83px;
+	overflow: visible;
+}
+#login_icon_hq {
+	position: absolute;
+	width: 52px;
+	height: 52px;
+	left: 1429px;
+	top: 78px;
+	overflow: visible;
+}
+#footer_hr {
+	fill: rgba(23,68,75,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.footer_hr {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 194px;
+	left: 0px;
+	top: 1386px;
+}
+#icons8-print-100_hs {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 1723px;
+	top: 629px;
+	overflow: visible;
+}
+#box1_ht {
+	position: absolute;
+	width: 1109px;
+	height: 166px;
+	left: 95px;
+	top: 685px;
+	overflow: visible;
+}
+#Candidates_can_contact_the_Hel_hu {
+	left: 3px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 1107px;
+	height: 79px;
+	text-align: left;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#call_icon_hv {
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	left: 0px;
+	top: 63px;
+	overflow: visible;
+}
+#contact_no_hw {
+	left: 124px;
+	top: 66px;
+	position: absolute;
+	overflow: visible;
+	width: 418px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#mail_icon_hx {
+	position: absolute;
+	width: 31px;
+	height: 31px;
+	left: 0px;
+	top: 135px;
+	overflow: visible;
+}
+#mama12r50gmailcom__ {
+	left: 124px;
+	top: 138px;
+	position: absolute;
+	overflow: visible;
+	width: 300px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#thenightvision12r50gmailcom_hz {
+	left: 423px;
+	top: 138px;
+	position: absolute;
+	overflow: visible;
+	width: 365px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#_2021__Zothansanga_Renthlei_h {
+	left: 815px;
+	top: 1420px;
+	position: absolute;
+	overflow: visible;
+	width: 291px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#This_website_belongs_to_Depart_h {
+	left: 396px;
+	top: 1467px;
+	position: absolute;
+	overflow: visible;
+	width: 1129px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#Crafted_with_care_by_Mizoram_S_h {
+	left: 645px;
+	top: 1516px;
+	position: absolute;
+	overflow: visible;
+	width: 631px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#Print_this_page_h {
+	left: 1560px;
+	top: 630px;
+	position: absolute;
+	overflow: visible;
+	width: 144px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Contact_Us__h {
+	left: 1324px;
+	top: 199px;
+	position: absolute;
+	overflow: visible;
+	width: 111px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#home_image1_h {
+	position: absolute;
+	width: 1920px;
+	height: 372px;
+	left: 0px;
+	top: 230px;
+	overflow: visible;
+}
+#icons8-next-page-96_h {
+	position: absolute;
+	width: 96px;
+	height: 96px;
+	left: 1724px;
+	top: 368px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: contact1.html;
+	cursor: pointer;
+}
+#icons8-next-page-96_ia {
+	position: absolute;
+	width: 96px;
+	height: 96px;
+	left: 100px;
+	top: 368px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: contact2.html;
+	cursor: pointer;
+}
