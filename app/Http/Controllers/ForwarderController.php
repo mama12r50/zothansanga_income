@@ -136,9 +136,9 @@ public function field_officer_check (request $request, $id)
     }
     public function search(){
         $search_text = $_GET['search'];
-        $name = Form::where('name','LIKE', '%'.$search_text.'%')->get();
+        $applicant_name = Form::where('applicant_name','LIKE', '%'.$search_text.'%')->get();
 
-        return view ('search',['name'=>$name]);
+        return view ('search',['applicant_name'=>$applicant_name]);
     }
 
 }
